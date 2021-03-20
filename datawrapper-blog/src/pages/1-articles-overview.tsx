@@ -1,7 +1,7 @@
 export default function () {
   return (
     <div class="font-sans bg-white h-screen grid grid-rows-[auto,1fr]">
-      <header class="max-w-lg m-10">
+      <header class="bg-white p-10">
         <div class="tracking-[0.25em] uppercase text-4xl text-gray-500 font-semibold">
           Chartable
         </div>
@@ -13,7 +13,7 @@ export default function () {
         </div>
 
         <div class="mt-16">
-          <ul class="list-none flex space-x-7 text-sm text-gray-500 whitespace-nowrap">
+          <ul class="list-none grid grid-flow-col gap-x-5 text-sm text-gray-500 whitespace-nowrap">
             <li class="hover:text-blue-600">Home</li>
             <li class="hover:text-blue-600">Datawrapper News</li>
             <li class="hover:text-blue-600">Thoughts &amp; How-Tos</li>
