@@ -225,10 +225,10 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@preact/preset-vite@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@preact/preset-vite/-/preset-vite-2.0.0.tgz#214c59d432bbf92842adbbfaa1f2ca16020b32d3"
-  integrity sha512-2Bf0NJyoWfbBpM6K1anEpjrofoZBRDcq2k1wuIUEcwkND6cSImqP5EZakpc0KatI7N+C6gWRbNR3caQPxyVRsA==
+"@preact/preset-vite@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@preact/preset-vite/-/preset-vite-2.0.1.tgz#8f213b47d5119ef8df1192ea7f07ee84e5c437c2"
+  integrity sha512-PMDZ6lt4fc31NfeGwvZGEFACnn086H2q/sBkL411ufW11ZzWDk7akTxn/P4pehz/TV5KSkdMnO710JQkeyj5QQ==
   dependencies:
     "@prefresh/vite" "^2.1.0"
     debug "^4.3.1"
@@ -280,10 +280,10 @@
   dependencies:
     mini-svg-data-uri "^1.2.3"
 
-"@tailwindcss/jit@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@tailwindcss/jit/-/jit-0.1.4.tgz#c373b89908143a5b5241fc9a905d58e3435b057d"
-  integrity sha512-4IGNNBR00dvZ79iQiXNwNWj5UX9lzXW6UWg6eg42rbSox/UlO7sLwyl0tBuaHa32zWAguHfmF1Yptn1y6iF4AQ==
+"@tailwindcss/jit@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@tailwindcss/jit/-/jit-0.1.8.tgz#0fb2a1319918d5fabdc0349ef71d7d3811da60cb"
+  integrity sha512-YNzq0mUimcJldY0u2B475u7fnyOWQkWbQvHcEftkf7VqQIwQrBvSRM7Cycg0MAU42IMgT14MGOmmV8ObUXzNMQ==
   dependencies:
     chokidar "^3.5.1"
     dlv "^1.1.3"
@@ -1635,10 +1635,10 @@ util-deprecate@^1.0.2:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-vite-plugin-pages@^0.7.2:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/vite-plugin-pages/-/vite-plugin-pages-0.7.2.tgz#81021d3b3ee9d7ee7338504cba508062fe14d16d"
-  integrity sha512-I3e3o+j2edGuUVocnizBxsKTBmCIKiK3sgqo8gfNJ5BHN7JjoRcfTk9wP3pavGJ/zczUbP5ULnXkWfgsJfw/aQ==
+vite-plugin-pages@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-pages/-/vite-plugin-pages-0.8.0.tgz#4bab030cda3b59c57ab29baab6506db541237e23"
+  integrity sha512-g7XJjF1DW7aUaiKfD7yprIoDLFGVlyVa/FznvDHogII6uUi0Y0RdU4R/CA3oDo+97Fpgz3l91Ri5tIDFyuLjJw==
   dependencies:
     "@vue/compiler-sfc" "^3.0.7"
     chalk "^4.1.0"
@@ -1648,13 +1648,12 @@ vite-plugin-pages@^0.7.2:
     fast-glob "^3.2.5"
     glob-to-regexp "^0.4.1"
     json5 "^2.2.0"
-    vue-router "^4.0.5"
     yaml "^2.0.0-4"
 
-vite@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.1.2.tgz#0aecaf6d34112b24536df1a14cd8d74fdcab6e20"
-  integrity sha512-K96k5Nb1kywggFwZNGf/NQVZIrjMSvjebYWFIEQRu8AQWtzxatMF8/reExFXebmrfWAT3PTUk6l4zJBkpMtyVg==
+vite@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.1.3.tgz#a31a844d26d3846b5a78f06970d1ea1f8a442955"
+  integrity sha512-bUzArZIUwADVJS/3ywCr4KKFn3a7izs4M87ZDlAlY2V34E4g1kH6p3sVNAh8/IXCn/56fwgMh3rRavPUW7qEQQ==
   dependencies:
     esbuild "^0.9.3"
     postcss "^8.2.1"
@@ -1662,11 +1661,6 @@ vite@^2.1.2:
     rollup "^2.38.5"
   optionalDependencies:
     fsevents "~2.3.1"
-
-vue-router@^4.0.5:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.5.tgz#dd0a4134bc950c37aef64b973e9ee1008428d8fa"
-  integrity sha512-AQq+pllb6FCc7rS6vh4PPcce3XA1jgK3hKNkQ4hXHwoVN7jOeAOMKCnX7XAX3etV9rmN7iNW8iIwgPk95ckBjw==
 
 which-boxed-primitive@^1.0.1:
   version "1.0.2"

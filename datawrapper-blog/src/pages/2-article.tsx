@@ -27,7 +27,7 @@ export default function () {
       </header>
 
       <main class="bg-white p-8">
-        <div class="grid grid-cols-[150px,1fr] gap-x-8">
+        <div class="grid grid-cols-[120px,1fr] gap-x-8">
           <div class="flex flex-col text-right text-gray-500">
             <strong>Mar 18, 2021</strong>
             <div>by Firstname Lastname</div>
@@ -35,13 +35,11 @@ export default function () {
           <div>
             <header class="text-gray-500">
               <strong>Weekly Chart</strong>
+              <h2 class="font-serif text-blue-700 font-bold text-4xl leading-normal">
+                Lorem ipsum dolor
+              </h2>
             </header>
-            <section class="mt-8">
-              <figure class="let-image border border-gray-300 min-h-[260px]"></figure>
-              <caption class="block text-left text-sm text-gray-500 mt-2 mb-5">
-                Photo by Firstname Lastname, Source
-              </caption>
-
+            <section class="mt-8 mr-[150px]">
               <section class="leading-7 space-y-5">
                 <p>
                   <em>
@@ -52,6 +50,20 @@ export default function () {
                     minima itaque amet nemo.
                   </em>
                 </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Labore ipsa ad porro
+                  <strong> dolore ab molestias dolorum</strong> ullam aspernatur
+                  dicta in sequi voluptates voluptatibus repellat error, quae
+                  illo quod asperiores suscipit.
+                </p>
+                <figure class="let-figure grid grid-cols-[1fr,150px] mr-[-150px]">
+                  <div class="border border-gray-300 min-h-[260px]"></div>
+                  <caption class="block text-left text-sm text-gray-500 pl-3">
+                    Photo by Firstname Lastname,{" "}
+                    <span class="text-blue-600 underline">Source</span>
+                  </caption>
+                </figure>
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Labore ipsa ad porro
